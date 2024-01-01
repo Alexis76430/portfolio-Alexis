@@ -57,9 +57,16 @@ a {
 .grid .grid__item img {
   max-width: 100%;
   height: auto;
-  height: 100px;
+  height: 200px;
   display: flex;
-  padding-left: 210px;
+  padding-left: 10px;
+}
+.grid .grid__item1 img{
+
+  
+  display: flex;
+  height: 80.5px;
+  padding-left: 350px;
 }
 
 ul {
@@ -113,6 +120,10 @@ li {
   }
 
   .grid__item {
+    max-width: 50%;
+  }
+
+  .grid .grid__item1 img {
     max-width: 50%;
   }
 }
@@ -447,10 +458,10 @@ display: flex;
 }
 
 .skills .progressbar {
-  font-size: 73px;
+  font-size: 59px;
  background: #42426F;
-  color: #ecfa1c;
-  margin-bottom: 1rem;
+  color: #00FFFF;
+  margin-bottom:1rem;
 }
 
 .skills .bar {
