@@ -120,11 +120,11 @@ li {
   }
 
   .grid__item {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .grid .grid__item1 img {
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
